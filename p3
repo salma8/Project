@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "No:of arguements=$#"
+echo "arguements=$*"
+

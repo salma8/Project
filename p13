@@ -1,0 +1,5 @@
+#!/bin/bash
+sort -k -3 -r "school.txt" > "new.txt"
+rm school.txt
+mv new.txt school.txt
+

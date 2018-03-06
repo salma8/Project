@@ -1,0 +1,5 @@
+#!/bin/bash
+read var
+echo "name is $var"
+echo "$var" | rev
+echo `expr length "$var"`

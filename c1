@@ -1,0 +1,9 @@
+#!/bin/bash
+echo Currently logged user:$(whoami)
+echo login name:$USER
+echo Current shell :$SHELL
+echo Home Directory :$HOME
+echo Type of OS: $OSTYPE
+echo Current path :$PATH
+echo Current directory: $(pwd)
+echo Number of users logged in: $(who -q)

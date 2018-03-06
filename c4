@@ -1,0 +1,16 @@
+#!/bin/bash
+if [ $# -gt 2 ]
+ then
+     echo only two arguments are passed
+fi
+if [ ! -f "$1" ]
+ then
+     echo enter a valid filename
+fi
+
+if grep "$2" "$1" -q
+then
+    echo username already exist
+else
+    cat $2 | cat >> "$1"
+fi

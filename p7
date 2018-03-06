@@ -1,0 +1,7 @@
+#!/bin/bash
+if grep "$1""$2" -q
+    then
+          echo "present"
+    else
+          echo "abscent"
+fi

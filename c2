@@ -1,0 +1,11 @@
+#!/bin/bash
+echo OS: $(uname -o)
+echo ReleaseName : $(uname -r)
+echo kernal version : $(uname -v)
+echo Available Shells : cat /etc/shells
+echo processor type:$(uname -p)
+echo processor speed :ls cpu | grep Mhz
+echo Memory information :vmstat -s | grep memory
+echo Harddisk information : df -H
+echo cache memory : ls cpu | grep cache
+echo Filesystem information : df -Th
